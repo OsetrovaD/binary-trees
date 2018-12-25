@@ -7,11 +7,11 @@ import java.util.Queue;
 
 public class NodesBFSConcatService {
 
-    public String  concatNodes(BinaryTree tree) {
+    public String concatNodes(BinaryTree tree) {
         return concatNodes(tree.getRoot());
     }
 
-    private  String concatNodes(BinaryTree.Node node) {
+    private String concatNodes(BinaryTree.Node node) {
         StringBuilder result = new StringBuilder();
 
         if (node != null) {
